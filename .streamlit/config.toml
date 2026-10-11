@@ -1,0 +1,33 @@
+# Peer Atlas theme: black & gold.
+# Streamlit shows a Light / Dark / System switch under the ⋮ menu → Settings.
+# Gold shades were picked for contrast: deeper gold on light (4.5:1), brighter gold on dark (8:1).
+
+[theme]
+font = "Manrope:https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+headingFont = "Cormorant Garamond:https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+headingFontWeights = 600
+baseRadius = "10px"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#8E6A24"
+backgroundColor = "#F7F5EF"
+secondaryBackgroundColor = "#EFEAE0"
+textColor = "#17150F"
+linkColor = "#8E6A24"
+borderColor = "#E2DCCD"
+
+[theme.dark]
+primaryColor = "#C9A24A"
+backgroundColor = "#0B0A08"
+secondaryBackgroundColor = "#17150F"
+textColor = "#EFE9DB"
+linkColor = "#D9B565"
+borderColor = "#2B261D"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+runOnSave = true

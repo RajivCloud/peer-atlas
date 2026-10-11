@@ -1,0 +1,43 @@
+/* Peer Atlas - small touches on top of the Streamlit theme (.streamlit/config.toml).
+   Colors come from Streamlit's own CSS variables so both light and dark themes work. */
+
+/* Gold eyebrow label above page titles */
+.eyebrow {
+  margin: 0 0 -0.4rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--st-primary-color, #C9A24A);
+}
+
+/* Big serif numbers in metric tiles */
+[data-testid="stMetricValue"] {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+[data-testid="stMetricLabel"] p {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Primary buttons: dark text on gold reads better than white in both themes */
+button[kind="primary"], a[kind="primary"] { font-weight: 700; }
+
+/* Chips for "open to" and status */
+.chip {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 2px 10px;
+  margin: 0 4px 4px 0;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 162, 74, 0.45);
+}
+.chip.gold { background: rgba(201, 162, 74, 0.16); border-color: transparent; font-weight: 600; }
+
+/* Tighter page top */
+.block-container { padding-top: 2.2rem; }

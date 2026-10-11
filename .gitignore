@@ -1,0 +1,19 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# --- Secrets: never commit these ---
+.env
+.streamlit/secrets.toml
+
+# --- Your real community data: never commit ---
+data/
+*.db
+
+# --- Editor / OS / tool clutter ---
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
